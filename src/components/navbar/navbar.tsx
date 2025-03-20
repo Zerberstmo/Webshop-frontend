@@ -25,6 +25,11 @@ export function Navbar() {
               </Link>
             </li>
             <li>
+              <Link to="/product" className="text-gray-600 hover:text-black">
+                Produkte
+              </Link>
+            </li>
+            <li>
               <a href="/contact" className="text-gray-600 hover:text-black">
                 Kontakt
               </a>

@@ -12,6 +12,7 @@ import { Contact7 } from "./components/contact/contact";
 import { FAQ1 } from "./components/faq/faq";
 import { Signup } from "./components/login/signup";
 import { Login3 } from "./components/login/login";
+import { Feature5 } from "./components/product/productSide";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login3 />,
+      },
+      {
+        path: "product",
+        element: <Feature5 />,
       },
     ],
   },
